@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">s375058-Mappe1</string>
+    <string name="title">WILLKOMMEN BEI ASTROMATTE!</string>
+    <string name="home_startSpill">SPIEL STARTEN</string>
+    <string name="home_omSpillet">ÜBER DAS SPIEL</string>
+    <string name="previous_page">" ZURÜCK"</string>
+    <string name="home_preferanser">EINSTELLUNGEN</string>
+    <string name="preferences_spilleregler">SPIELREGELN</string>
+    <string name="preferences_lengdePaaSpill">"LÄNGE DES SPIELS "</string>
+    <string name="preferences_velgSprak">SPRACHE WÄHLEN</string>
+    <string name="language_norsk">NORWEGISCH</string>
+    <string name="language_tysk">DEUTSCH</string>
+    <string name="femSpill">5 SPIELE</string>
+    <string name="tiSpill">10 SPIELE</string>
+    <string name="femtenSpill">15 SPIELE</string>
+    <string name="startSpill_Tittel">HIER SIND EINIGE MATHE-FRAGEN</string>
+    <string name="startSpill_klar">SIND SIE BEREIT?</string>
+    <string name="startSpill_knapp">"ICH BIN BEREIT "</string>
+    <string name="spørsmål">FRAGE %d</string>
+    <string name="omSpilletTekst">Willkommen in unserer lustigen Mathe-App! Hier können Sie Spiele spielen und gleichzeitig Ihre Mathematikkenntnisse verbessern. Je mehr du spielst, desto besser wirst du! Viel Spaß beim Mathelernen!</string>
+    <string name="DialogFerdig">Du bist fertig!</string>
+    <string name="DialogFerdigAvslutt">Ausfahrt</string>
+    <string name="DialogFerdigSpillIgjen">Spielen Sie noch einmal!</string>
+    <string name="DialogAvbryt">" Sind Sie sicher, dass Sie aufhören möchten?"</string>
+    <string name="DialogAvbrytJa">" Ja"</string>
+    <string name="DialogAvbrytNei">NEIN</string>
+    <string name="SpråkValgtTysk">Sprache auf Deutsch eingestellt</string>
+    <string name="regnUtHint">Zählen Sie es aus!</string>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">s375058-Mappe1</string>
+    <string name="title">VELKOMMEN TIL ASTROMATTE!</string>
+    <string name="messages_header">Dine meldinger</string>
+    <string name="home_startSpill">START SPILL</string>
+    <string name="home_omSpillet">OM SPILLET</string>
+    <string name="home_preferanser">PREFERANSER</string>
+    <string name="previous_page">TILBAKE</string>
+    <string name="preferences_lengdePaaSpill">LENGDE PÅ SPILL</string>
+    <string name="preferences_velgSprak">VELG SPRÅK</string>
+    <string name="preferences_spilleregler">SPILLEREGLER</string>
+    <string name="language_norsk">NORSK</string>
+    <string name="language_tysk">TYSK</string>
+    <string name="femSpill">5 SPILL</string>
+    <string name="tiSpill">10 SPILL</string>
+    <string name="femtenSpill">15 SPILL</string>
+    <string name="signature_title">Din signatur</string>
+    <string name="signature_summary">Oppgi din signatur her</string>
+    <string name="startSpill_Tittel">HER KOMMER DET NOEN MATTESPØRSMÅL</string>
+    <string name="startSpill_klar">ER DU KLAR?</string>
+    <string name="startSpill_knapp">JEG ER KLAR</string>
+    <string name="spørsmål">SPØRSMÅL %d</string>
+    <string name="omSpilletTekst">"Velkommen til vår morsomme matteapp! Her kan du spille spill og bli bedre i matte samtidig. Jo mer du spiller, jo bedre blir du! Ha det gøy med å lære matte!"</string>
+    <string name="DialogFerdig">Du er ferdig!</string>
+    <string name="DialogFerdigAvslutt">Avslutt</string>
+    <string name="DialogFerdigSpillIgjen">Spill igjen!</string>
+    <string name="DialogAvbryt">Er du sikker på at du vil avslutte?</string>
+    <string name="DialogAvbrytJa">Ja</string>
+    <string name="DialogAvbrytNei">Nei</string>
+    <string name="SpråkValgtNorsk">Språk satt til norsk</string>
+    <string name="SpråkValgtTysk">Sprache auf Deutsch eingestellt</string>
+    <string name="regnUtHint">Regn ut!</string>
+
+</resources>

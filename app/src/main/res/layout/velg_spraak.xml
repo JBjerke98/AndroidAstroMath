@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_home"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtPreferanse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/home_preferanser"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnNorsk"
+        android:layout_width="240dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="352dp"
+        android:text="@string/language_norsk"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtPreferanse"
+        app:layout_constraintStart_toStartOf="@+id/txtPreferanse"
+        app:layout_constraintTop_toBottomOf="@+id/txtPreferanse" />
+
+    <ImageView
+        android:id="@+id/logoPreferanse"
+        android:layout_width="208dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/txtPreferanse"
+        app:layout_constraintStart_toStartOf="@+id/txtPreferanse"
+        app:layout_constraintTop_toBottomOf="@+id/txtPreferanse"
+        app:srcCompat="@drawable/astronaut_home" />
+
+    <Button
+        android:id="@+id/btnTysk"
+        android:layout_width="240dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/language_tysk"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnNorsk"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnNorsk"
+        app:layout_constraintTop_toBottomOf="@+id/btnNorsk" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="83dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="@+id/btnTysk"
+        app:layout_constraintTop_toBottomOf="@+id/btnNorsk"
+        app:srcCompat="@drawable/flagg1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="78dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="312dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="@+id/btnNorsk"
+        app:layout_constraintTop_toBottomOf="@+id/txtPreferanse"
+        app:srcCompat="@drawable/flagg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

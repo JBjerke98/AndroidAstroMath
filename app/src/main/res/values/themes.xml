@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.S375058Mappe1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.S375058Mappe1" parent="Base.Theme.S375058Mappe1">
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+    </style>
+
+    <style name="NumberTextSize" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Title" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <!-- Definer en stil for alle knappene -->
+    <style name="NumberButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">60dp</item> <!-- Sett en fast høyde -->
+        <item name="android:textAppearance">@style/NumberTextSize</item> <!-- Bruker en annen stil for tekststørrelse -->
+        <item name="android:textColor">@android:color/white</item> <!-- Hvit tekstfarge -->
+    </style>
+</resources>

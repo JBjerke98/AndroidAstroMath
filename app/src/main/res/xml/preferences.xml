@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Spillinnstillinger kategori -->
+    <PreferenceCategory
+        android:title="Spillinnstillinger">
+
+        <!-- Spilllengde-innstilling -->
+        <ListPreference
+            android:key="game_length"
+            android:title="Velg spilllengde"
+            android:summary="Velg hvor mange spill per runde"
+            android:entries="@array/game_length_options"
+            android:entryValues="@array/game_length_values"
+            android:defaultValue="5"
+            android:dialogTitle="Velg spilllengde" />
+    </PreferenceCategory>
+
+    <!-- Appinnstillinger kategori -->
+    <PreferenceCategory
+        android:title="Appinnstillinger">
+
+        <!-- Språkvalg-innstilling -->
+        <ListPreference
+            android:key="language_preference"
+            android:title="Velg språk"
+            android:summary="Velg språket for appen"
+            android:entries="@array/language_options"
+            android:entryValues="@array/language_values"
+            android:defaultValue="no"
+            android:dialogTitle="Velg språk" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
